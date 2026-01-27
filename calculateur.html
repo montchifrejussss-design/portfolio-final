@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculateur de Prêt</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .champ { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Calculateur de Prêt Hypothécaire</h2>
+    <div class="champ">Montant du prêt (P) : <input type="number" id="montant"></div>
+    <div class="champ">Taux d'intérêt annuel (%) : <input type="number" id="taux"></div>
+    <div class="champ">Durée (années) : <input type="number" id="duree"></div>
+    <button onclick="calculerMensualite()">Calculer</button>
+
+    <p id="resultat" style="font-weight: bold; color: green;"></p>
+
+    <script src="calculateur.js"></script>
+</body>
+
+</html>
