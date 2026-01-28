@@ -28,7 +28,7 @@ header{
     align-items: center;
 }
 #seul{
-    color: white;
+    color: black;
 }
 .lolo{
     display: inline-block;
@@ -107,8 +107,8 @@ nav ul li a{
     display: flex;
     align-items: center;
     padding: 3% 3%;
-    background: #121212;
-    color: white;
+    background:#5d9485;
+    color: black;
     gap: 20px;
 }
 .a-propos{
@@ -243,6 +243,10 @@ h2{
     font-size: 12px;
     display: inline-block;
 }
+#competences{
+    justify-items: center;
+    background: #faf8f8;
+}
 .skills-container {
     background: #faf8f8;
     display: flex;
@@ -310,8 +314,6 @@ h2{
     width: 100%;
     align-items: center;
 }
-
-/* Alignement Sur PC */
 .row {
     display: flex;
     gap: 40px;
@@ -399,46 +401,21 @@ button[type="submit"]:hover {
     text-align: center;
     padding: 1px 4%;
     margin: 0%;
-    background: #1b9e7b;
+    background: #35e221;
     gap: 10px;
 }
 footer{
     gap: 60%;
     font-size: 13px;
-    background-color: rgba(255, 255, 68, 0.333);
+    background-color: rgb(67, 2, 2);
     text-align: center;
     padding: 2px 6%;
     margin-top: auto;
-    animation: changeCouleurs 40s ;}
-    @keyframes changeCouleurs {
-        0%{
-            background-color: rgba(18, 57, 251, 0.333);
-        }
-        33%{
-            background-color: #a93d16;
-        }
-        66%{
-            background-color: rgb(255, 255, 255);
-        }
-        100%{background-color: #17c44e;
-        }
-    }
+}
     footer p{
         color: white;
-        animation: changeCouleurss 35s infinite ;}
-@keyframes changeCouleurss {
-    0%{
-        color: white;
     }
-    33%{
-        color: black;
-    }
-    66%{
-        color: white;
-    }
-    100%{color: blue;
-    }
-    }
+
 .scroll-top {
     position: fixed;
     bottom: 30px;
@@ -446,7 +423,7 @@ footer{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #2EE5B5;
+    background-color: rgb(121, 9, 9);
     color: white;
     display: flex;
     align-items: center;
